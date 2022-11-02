@@ -1,0 +1,86 @@
+
+
+
+
+.useAnkle{
+
+position: relative;
+perspective: 1000px;
+height: 50px;
+width: 50px;
+
+
+
+}
+
+.ankle img{
+ width: 100%;
+ height: 100%;
+}
+
+
+
+
+.ankle{
+
+ position: absolute;
+ transform-style: preserve-3d;
+
+
+ color: chartreuse;
+ width:  100%;
+ height: 100%;
+
+ animation: obracaniekostki 10s;
+ animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.wall{
+    position: absolute;
+    width:  100%;
+    height: 100%;
+}
+
+
+.front{
+    background: blue;
+    transform: translateZ(25px);
+}
+
+.right{
+    /* width: 100px;
+    height: 100px; */
+    background: red;
+    transform:  rotateY(-90deg) translateZ(25px) 
+   
+    
+   
+}
+
+.left{
+    /* width: 100px;
+    height: 100px; */
+    background: green;
+    transform:  rotateY(90deg) translateZ(25px) 
+    
+}
+
+.back{
+    /* width: 100px;
+    height: 100px; */
+    background: orange;
+    transform: rotateY(180deg) translateZ(25px);
+   
+  
+}
+
+@keyframes obracaniekostki {
+    from{
+
+    }
+    to
+    {
+        transform:   rotateY(360deg);
+    }
+}

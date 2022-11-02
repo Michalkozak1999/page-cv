@@ -1,0 +1,27 @@
+.contenerhobby{
+font-family: 'Audiowide', sans-serif;
+
+margin-top: 20px;
+margin-bottom: 30px;
+text-align: center;
+}
+
+.hobbys_img{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content:space-around;
+    align-items: flex-end;
+}
+
+.hobbys_img h2{
+color: rgb(78, 218, 78);
+}
+
+@media (max-width: 800px){
+    .hobbys_img{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        justify-content:space-around;
+        align-items: flex-end;
+    }
+}

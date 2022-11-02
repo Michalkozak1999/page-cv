@@ -1,0 +1,154 @@
+.heder_button{
+   
+  margin-top: 2px;
+  margin-left: 15px;
+   
+}
+
+.heder_div{
+  position: fixed;
+  min-height: 70px;
+  min-width: 95%;
+  /* background-color: rgba(73, 69, 69, 0.671); */
+  /* background-color: rgba(0, 0, 0, 0); */
+ 
+  max-height: 70px;
+  display: flex;
+  transition: 2s;
+ 
+  box-shadow: 20px 20px 50px 10px rgba(149, 151, 149, 0.507) inset;
+  border-radius: 15px;
+  
+  z-index: 5;
+
+
+}
+
+
+
+
+.heder_div_null {
+  position: fixed;
+  min-height: 70px;
+  min-width: 95%;
+  transition: 2s;
+  background-color: rgba(0, 0, 0, 0);
+
+  max-height: 70px;
+  display: flex;
+  z-index: 5;
+}
+
+
+/* .heder_div_null button::before{
+  content: "\1F50D  ";
+} */
+
+.heder_div img{
+  min-width: 80px;
+  text-transform: uppercase;
+ background-color:  rgb(153, 153, 150);
+ max-height: 70px;
+ min-height: 70px;
+ 
+font-weight: bold;
+ 
+ position: absolute;
+ border-radius: 15%;
+ filter: invert(100%);
+
+
+ background-color: rgba(0, 0, 0, 0);
+  
+}
+
+/* .heder_div button::before{
+  content: "\1F50D  ";
+} */
+
+
+
+.heder_button:hover{
+ cursor: pointer;
+  opacity: 50%;
+ transform: 1s;
+}
+
+/* .heder_button:hover{
+ 
+  opacity: 50%;
+ transform: 1s;
+} */
+
+/* .heder_div_null button{
+  min-width: 100px;
+  text-transform: uppercase;
+ background-color:  rgb(153, 153, 150);
+ max-height: 40px;
+ min-height: 40px;
+ margin-top: 15px;
+ margin-left: 15px;
+font-weight: bold;
+ cursor: pointer;
+ position: absolute;
+ border-radius: 15%;
+  
+} */
+
+.heder_div_null img{
+  min-width: 80px;
+  text-transform: uppercase;
+ 
+ max-height: 70px;
+ min-height: 70px;
+
+font-weight: bold;
+
+ position: absolute;
+ border-radius: 15%;
+ filter: invert(100%);
+
+
+ background-color: rgba(0, 0, 0, 0);
+  
+}
+/* .heder_div_null button:hover{
+  background-color: rgb(181, 184, 183);
+ 
+} */
+
+
+
+/* .heder_div img{
+  max-height: 100%;
+} */
+
+
+.heder_cossak {
+ right: 2px;
+}
+
+.Myname{
+  position: absolute;
+  right:80px;
+  top:20px;
+  text-transform: uppercase;
+  font-size: 20px;
+  transition: 2s;
+}
+
+.Myname_isActiv{
+  position: absolute;
+  right:90px;
+  top:20px;
+  text-transform: uppercase;
+  font-size: 20px;
+  transition: 2s;
+ 
+background: none;
+}
+
+
+.forName img{
+  display: flex;
+}

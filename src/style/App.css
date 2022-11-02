@@ -1,0 +1,39 @@
+.App {
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh;
+ width: 95%;
+ margin: 0 auto;
+}
+
+
+header{
+ height: 100px;
+ 
+
+}
+
+main{
+  display: flex;
+  
+  flex-basis: 80vh;
+
+}
+
+aside{
+
+}
+
+
+
+section.usepage{
+  flex-grow: 1;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+footer{
+ 
+  width: 100%;
+}

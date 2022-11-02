@@ -1,0 +1,14 @@
+.contact{
+    
+   max-width: 500px;
+   background-color: rgb(126, 126, 151);
+   color: rgba(0, 0, 0, 0.787);
+   font-size: 20px;
+   font-weight: 800;
+   margin-right: auto;
+   margin-left: auto;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 20px;
+padding: 20px 20px;
+}

@@ -1,0 +1,53 @@
+.Mycharacter{
+    flex-grow: 1;
+    max-width: 400px;
+    
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+.Mycharacter h1{
+    text-align: center;
+    color: rgba(75, 222, 183, 0.823);
+    font-family: 'Audiowide', sans-serif;
+   margin-left: 10px;
+}
+
+.Mycharacter p{
+    background-color: rgba(0, 0, 0, 0);
+    
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.Mycharacterflex{
+    display: flex;
+}
+
+.Mycharacter img{
+    width: 70px;
+   
+}
+
+
+
+@media (min-width:1400px){
+    .Mycharacter{
+        /* margin-top: -120px; */
+        flex-grow: 2;
+        max-width: 400px;
+        
+       
+       
+        align-items: center;
+    }
+}
+
+/* @media (min-width:1000px){
+    .Mycharacter{
+        margin-top: 30px;
+        flex-grow: 1;
+       
+    }
+} */

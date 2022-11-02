@@ -1,0 +1,182 @@
+body {
+    padding: 0;
+    margin: 0;
+    /* background: linear-gradient(to right, #00AAFF, #00FF6C); */
+    background-color: white;
+
+}
+
+.grid_1 {
+    width: 12%;
+    list-style-type: none;
+}
+
+.grid_1 a {}
+
+.grid_2 {
+    width: 76%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.grid_3 {
+    width: 12%;
+    list-style-type: none;
+    text-align: center;
+}
+
+
+.grid_2 li {
+    display: inline-block;
+    position: relative;
+
+
+}
+
+.grid_2 ul {
+    display: none;
+    position: absolute;
+    margin-top: -2px;
+    padding: 0px;
+}
+
+.grid_2 li>ul>li {
+    width: 160px;
+    margin-top: 5px;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    background-color: rgba(62, 253, 158, 0.856);
+    box-shadow: 10px 0px 25px 0px rgb(51, 143, 151);
+    border-radius: 4px;
+}
+
+.grid_2 li>ul>li:hover {
+    background-color: rgba(47, 200, 80, 0.589);
+    box-shadow: 10px 0px 25px 0px rgb(51, 143, 151);
+    border-radius: 5px;
+}
+
+
+
+.grid_2 li>ul>li>a {
+    color: rgba(84, 7, 207, 0.829);
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+
+.grid_2 a:focus+ul,
+.grid_2 a:hover+ul,
+.grid_2 ul:hover {
+    display: block;
+}
+
+
+.gridwrapper {
+    text-align: center;
+    width: 100%;
+    background-color: rgba(23, 36, 223, 0.555);
+    padding: 1rem;
+    font-size: 25px;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.678);
+    border-radius: 1px;
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+}
+
+
+.gridwrapper a {
+    color: rgba(1, 247, 255, 0.979);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+}
+
+.gridwrapper li {
+    color: springgreen;
+}
+
+.gridwrapper li:hover {
+    background-color: rgba(19, 189, 219, 0.589);
+    box-shadow: 10px 0px 25px 0px rgb(51, 143, 151);
+    border-radius: 20px;
+
+
+
+}
+
+.box {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: minmax(400px, auto);
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.grid_4 {}
+
+
+
+.calculator_grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(100px, auto) repeat(5, 100px);
+    margin: 0;
+    padding: 0;
+}
+
+.calculator_grid>button {
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 2px black;
+    outline: none;
+    background: linear-gradient(to right, #26ff00, #0004ff5e);
+}
+
+.calculator_grid>button:hover {
+    background: linear-gradient(to right, #ffffff, #000000);
+}
+
+.span-two {
+    grid-column: span 2;
+}
+
+
+.input {
+    grid-column: 1/-1;
+    background-color: rgba(0, 0, 0, 0.678);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.input .previus-operand {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.input .current-opernad {
+    color: white;
+    font-size: 2.5rem;
+}

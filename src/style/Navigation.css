@@ -1,0 +1,283 @@
+:root {
+    --backgroundnavigate: rgba(206, 42, 42, 0);
+    --background--a: rgba(0, 0, 0, 0.801);
+    --background--div: rgba(0, 0, 0, 0.572);
+}
+
+
+
+
+.listyle {
+
+    list-style-type: none;
+    width: 270px;
+    height: 70px;
+
+}
+
+.listyle a:hover {
+    transform: 1s;
+    opacity: 50%;
+
+}
+
+
+
+
+.emojiforNavigation {
+    margin-left: 20px;
+    float: left;
+    width: 40px;
+    height: 40px;
+    z-index: -2;
+}
+
+.emojiforNavigation img {
+    width: 100%;
+    filter: invert(100%);
+
+
+    background-color: rgba(255, 255, 255, 0.89);
+}
+
+
+
+.allnav {
+    width: 270px;
+    height: 100vh;
+    border-radius: 12px;
+    background-color: var(--background--div);
+    position: fixed;
+    left: 0;
+    top: 86px;
+    transform: translateX(-288px);
+    transition: 0.6s;
+    margin: 0;
+    padding: 0;
+    animation: normal;
+    /* left: 15px;
+    top: 70px; */
+
+
+}
+
+.allnavdone {
+    width: 270px;
+    height: 100vh;
+    border-radius: 12px;
+    background-color: var(--background--div);
+    position: fixed;
+    left: 0;
+    top: 86px;
+    animation: allnavdone 0.7s normal;
+}
+
+
+/* @keyframes allnav {
+    from {
+        
+    }
+
+    to {
+        transform: translateX(-350px);
+    }
+} */
+
+
+
+@keyframes allnavdone {
+    from {
+        left: -288px;
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+
+.navstyle {
+
+    z-index: 0;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    left: -40px;
+    top: 70px;
+    animation: iseeu 0.7s normal;
+    /* background: var(--background--a); */
+
+    /* animation-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1); */
+    /* background-color: rgb(255, 255, 255); */
+    /* width: 200px; */
+
+}
+
+.navstyledone ul {
+
+    background-color: var(--background--a);
+
+}
+
+.navstyledone a {
+    text-decoration: none;
+    display: block;
+    transition: 0.6s;
+    text-transform: uppercase;
+
+    margin-top: 15px;
+    margin-bottom: auto;
+    cursor: pointer;
+    font-weight: bold;
+    /* border: 3px solid rgba(253, 253, 253, 0.912); */
+    height: 50%;
+    padding: 25px 0;
+    text-align: center;
+
+    border-top-right-radius: 10%;
+    background-color: var(--background--a);
+
+}
+
+.navstyledone {
+
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    left: 15px;
+    top: 70px;
+    transition: 0.6s;
+    background-color: rgba(255, 255, 255, 0);
+    transform: translateX(-350px);
+
+
+}
+
+
+@keyframes back {
+    from {}
+
+    to {}
+}
+
+
+
+
+
+
+
+
+@keyframes iseeu {
+    from {
+        left: -350px;
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
+
+
+.navstyle a {
+    text-decoration: none;
+    display: block;
+    transition: 0.6s;
+    text-transform: uppercase;
+
+    margin-top: 15px;
+    z-index: -1;
+    cursor: pointer;
+    font-weight: bold;
+    /* border: 3px solid rgba(253, 253, 253, 0.912); */
+    height: 50%;
+    padding: 25px 0;
+    text-align: center;
+
+    border-top-right-radius: 10%;
+    background-color: var(--background--a);
+}
+
+
+
+
+
+.navstyle li:hover {
+    opacity: 90%;
+
+    z-index: 1;
+}
+
+
+.navstyle a:hover {
+    transform: translateX(20px);
+
+    z-index: -1;
+}
+
+.navstyle a.active {
+    transform: translateX(0);
+    border-left: 6px red solid;
+
+}
+
+.navstyle li:nth-child(1) a.active {
+    border-left-color: rgb(83, 177, 240);
+}
+
+.navstyle li:nth-child(2) a.active {
+    border-left-color: rgb(126, 214, 126);
+}
+
+.navstyle li:nth-child(3) a.active {
+    border-left-color: rgb(255, 255, 109);
+}
+
+.navstyle li:nth-child(4) a.active {
+    border-left-color: pink;
+}
+
+/* .allnav{
+     position: fixed;
+     width: 270px;
+     height: 460px;
+     background-color: rgb(0, 0, 0);
+     left: 0;
+     top: 70px;
+
+     
+ } */
+
+.kontakt h2 {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.kontakt {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(1, 230px);
+    right: 20px;
+    top: 76vh;
+    background-color: rgba(0, 0, 0, 0);
+    
+    font-size: 20px;
+   
+
+}
+
+.kontakt p {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+@media (max-width: 600px){
+    .kontakt {
+        top: 72vh;
+    }
+}
