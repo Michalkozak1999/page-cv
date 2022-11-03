@@ -22,7 +22,7 @@ handlerCliick = () => {
   render() {
     return (
 
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div className="App">
           <header>
             <Header isActive2={this.handlerCliick} />
