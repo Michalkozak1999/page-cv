@@ -8,9 +8,9 @@ import Hobby from "./Hobby";
 
 
 
-import img1 from "../MyJPG/Pike.png"
-import img2 from "../MyJPG/pike2.png"
-import img3 from "../MyJPG/pike3.png"
+import img1 from "../MyJPG/myjpg.JPG"
+import img2 from "../MyJPG/myjpg2.JPG"
+import img3 from "../MyJPG/myjpg3.JPG"
 
 
 import JS from '../JPG/jstech.png'
