@@ -1,0 +1,94 @@
+.box {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    grid-gap: 1rem;
+    grid-template-rows: minmax(50px, auto);
+
+    justify-content: center;
+
+}
+
+.name{
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+    font-size: 40px;
+}
+.grid_4 {
+    margin-bottom: 20px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    font-size: 48px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Inconsolata', monospace;
+
+}
+
+
+.grid_5 {
+
+    box-shadow: 2px 0px 25px 0px rgb(255, 255, 255);
+    border-radius: 70px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.grid_5 img {
+    width: 95%;
+    height: 80%;
+    margin-top: 10%;
+    margin-left: 2%;
+
+}
+
+.grid_6 {
+
+
+
+    text-align: center;
+    padding: 0;
+    margin-top: 120px;
+
+
+
+}
+
+.litery {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: solid black 3px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(220, 207, 20);
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+}
+
+.litery:hover {
+    background-color: rgb(184, 218, 218);
+}
+
+.reset {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    cursor: pointer;
+
+}
+
+.reset:hover {
+    color: white;
+}
+
+.grid_6 li {
+    font-size: 50px;
+    
+    list-style-type: none;
+}

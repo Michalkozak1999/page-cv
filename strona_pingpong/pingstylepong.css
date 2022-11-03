@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.171);
+}
+
+.gracz {
+    float: left;
+    width: 50%;
+
+}
+
+.computer {
+    float: left;
+    width: 50%;
+
+}
+
+
+
+canvas {
+    
+
+    background-color: white;
+    border: solid black 2px;
+}

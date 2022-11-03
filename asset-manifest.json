@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/page-cv/static/css/main.8827ef7b.css",
+    "main.js": "/page-cv/static/js/main.5c26746f.js",
+    "static/media/myjpg2.JPG": "/page-cv/static/media/myjpg2.58b6779ceb3d0644c88f.JPG",
+    "static/media/myjpg3.JPG": "/page-cv/static/media/myjpg3.809d05c8232f1aba5680.JPG",
+    "static/media/myjpg.JPG": "/page-cv/static/media/myjpg.7df37a691bbb4f548e89.JPG",
+    "static/media/fetch.PNG": "/page-cv/static/media/fetch.a8e0930be1bbd5555e30.PNG",
+    "static/media/hochland.jpg": "/page-cv/static/media/hochland.246c2a4abd1b7e64ccd7.jpg",
+    "static/media/ekonomiczny.jpg": "/page-cv/static/media/ekonomiczny.46a58f3ec7eafa476b37.jpg",
+    "static/media/makler.png": "/page-cv/static/media/makler.9714c674fa08dcbb4afb.png",
+    "static/media/wisielec.png": "/page-cv/static/media/wisielec.60787d5272cb135c7ff0.png",
+    "static/media/reacttech.png": "/page-cv/static/media/reacttech.283f9f863581bb226e65.png",
+    "static/media/kalkulator.png": "/page-cv/static/media/kalkulator.caf31af27228fcb70fb1.png",
+    "static/media/sasstech.png": "/page-cv/static/media/sasstech.58e61bc991e55a95072b.png",
+    "static/media/htmltech.png": "/page-cv/static/media/htmltech.1d7b133e22ffe4829da6.png",
+    "static/media/jstech.png": "/page-cv/static/media/jstech.a2a16f087e18d50f3d99.png",
+    "static/media/to_do_app.PNG": "/page-cv/static/media/to_do_app.c190831fcf1c3beec53d.PNG",
+    "static/media/csstech.png": "/page-cv/static/media/csstech.9a088dd12159725b7a63.png",
+    "static/media/css.png": "/page-cv/static/media/css.0c13c5cecd566fbab673.png",
+    "static/media/excel.jpg": "/page-cv/static/media/excel.12af751c512873fec45d.jpg",
+    "static/media/html.png": "/page-cv/static/media/html.7aa9a441950283a96c63.png",
+    "static/media/Ping_pong.png": "/page-cv/static/media/Ping_pong.95a6b8e4afc2f5599b93.png",
+    "static/media/rubik.png": "/page-cv/static/media/rubik.4f0409684b740616c29e.png",
+    "static/media/react.png": "/page-cv/static/media/react.ef20e673b9282f8f30fd.png",
+    "static/media/skoczek.PNG": "/page-cv/static/media/skoczek.3526d479eff7cb3207ae.PNG",
+    "index.html": "/page-cv/index.html",
+    "main.8827ef7b.css.map": "/page-cv/static/css/main.8827ef7b.css.map",
+    "main.5c26746f.js.map": "/page-cv/static/js/main.5c26746f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8827ef7b.css",
+    "static/js/main.5c26746f.js"
+  ]
+}
