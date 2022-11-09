@@ -267,8 +267,35 @@
    
 
 }
-
-@media (min-height: 850px) {
+@media (min-height: 450px) {
+    .kontakt {
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(1, 230px);
+        right: 20px;
+        top: 65vh;
+        background-color: rgba(0, 0, 0, 0);
+        
+        font-size: 20px;
+       
+    
+    }
+}
+@media (min-height: 700px) {
+    .kontakt {
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(1, 230px);
+        right: 20px;
+        top: 71vh;
+        background-color: rgba(0, 0, 0, 0);
+        
+        font-size: 20px;
+       
+    
+    }
+}
+@media (min-height: 820px) {
     .kontakt {
         position: absolute;
         display: grid;
