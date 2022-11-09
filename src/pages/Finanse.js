@@ -76,7 +76,7 @@ const Finase = () => {
                 </div>
             </div>
 
-            <div className="makler">W dniu 06.07.2021 uzyskałem Licencje Maklera Papierów wartościowych od Komisji Nadzoru Finansowego
+            <div className="makler">W dniu 06.07.2021 uzyskałem Licencję Maklera Papierów wartościowych od Komisji Nadzoru Finansowego
                 <img src={makler} alt="makler" />
 
             </div>
