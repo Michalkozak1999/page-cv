@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/page-cv/static/css/main.8827ef7b.css",
-    "main.js": "/page-cv/static/js/main.c3098429.js",
-    "static/media/myjpg2.JPG": "/page-cv/static/media/myjpg2.58b6779ceb3d0644c88f.JPG",
-    "static/media/myjpg3.JPG": "/page-cv/static/media/myjpg3.809d05c8232f1aba5680.JPG",
-    "static/media/myjpg.JPG": "/page-cv/static/media/myjpg.7df37a691bbb4f548e89.JPG",
+    "main.css": "/page-cv/static/css/main.14b88add.css",
+    "main.js": "/page-cv/static/js/main.25095baa.js",
+    "static/media/myjpg3.jpg": "/page-cv/static/media/myjpg3.8843445861d268b244e6.jpg",
+    "static/media/myjpg2.jpg": "/page-cv/static/media/myjpg2.feae3b72725edd7e8469.jpg",
+    "static/media/myjpg.jpg": "/page-cv/static/media/myjpg.5281ac671f6db7622f05.jpg",
     "static/media/fetch.PNG": "/page-cv/static/media/fetch.a8e0930be1bbd5555e30.PNG",
     "static/media/hochland.jpg": "/page-cv/static/media/hochland.246c2a4abd1b7e64ccd7.jpg",
     "static/media/ekonomiczny.jpg": "/page-cv/static/media/ekonomiczny.46a58f3ec7eafa476b37.jpg",
@@ -25,11 +25,11 @@
     "static/media/react.png": "/page-cv/static/media/react.ef20e673b9282f8f30fd.png",
     "static/media/skoczek.PNG": "/page-cv/static/media/skoczek.3526d479eff7cb3207ae.PNG",
     "index.html": "/page-cv/index.html",
-    "main.8827ef7b.css.map": "/page-cv/static/css/main.8827ef7b.css.map",
-    "main.c3098429.js.map": "/page-cv/static/js/main.c3098429.js.map"
+    "main.14b88add.css.map": "/page-cv/static/css/main.14b88add.css.map",
+    "main.25095baa.js.map": "/page-cv/static/js/main.25095baa.js.map"
   },
   "entrypoints": [
-    "static/css/main.8827ef7b.css",
-    "static/js/main.c3098429.js"
+    "static/css/main.14b88add.css",
+    "static/js/main.25095baa.js"
   ]
 }
