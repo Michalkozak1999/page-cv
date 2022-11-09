@@ -20,7 +20,7 @@ const Hobby = () => {
                 </div>
 
                 <div className="adventure">
-                    <h2>Książki Przygodowe / Fantanstyczno-naukowe</h2>
+                    <h2>Książki Przygodowe / Fantastyczno-naukowe</h2>
                     <img src={adventure} alt="rynek" />
                 </div>
 

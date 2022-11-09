@@ -8,13 +8,13 @@ import Hobby from "./Hobby";
 
 
 
-import img1 from "../MyJPG/myjpg.JPG"
-import img2 from "../MyJPG/myjpg2.JPG"
-import img3 from "../MyJPG/myjpg3.JPG"
+import img1 from "../MyJPG/myjpg.jpg"
+import img2 from "../MyJPG/myjpg2.jpg"
+import img3 from "../MyJPG/myjpg3.jpg"
 
 
 import JS from '../JPG/jstech.png'
-import css  from '../JPG/csstech.png'
+import css from '../JPG/csstech.png'
 import html from '../JPG/htmltech.png'
 import react from '../JPG/reacttech.png'
 import sass from '../JPG/sasstech.png'
@@ -30,40 +30,41 @@ const description = [
 const myphoto = [{ id: 0, img: img1, opis: "ja" }, { id: 1, img: img2, opis: "ja1" }, { id: 2, img: img3, opis: "ja2" }]
 
 const Descriptions = () => {
-    const [number, setnumber] = useState(1)
+    const [number, setnumber] = useState(0)
 
     useEffect(() => {
         const interval = setInterval(() => {
-            const math = Math.floor(Math.random() * 3)
+            // const math = Math.floor(Math.random() * 3)
 
 
+            setnumber(number => number + 1)
 
-
-            setnumber(number => math)
-        }, 3000)
+        }, 5000)
         return () => clearInterval(interval)
     }, [])
 
 
-
+    if (number > 2) {
+        setnumber(number => 0)
+    }
 
 
 
     const descriptionnow = description.map(oneinfo => {
         return (
             <div className="descriptionnow_flex" key={oneinfo.id}>
-               <div className= "description_flex_ankel">  
-               <h1>{oneinfo.opis}</h1>
-               {oneinfo.ankel ? <Ankle/>: null}
-              
-               </div> 
+                <div className="description_flex_ankel">
+                    <h1>{oneinfo.opis}</h1>
+                    {oneinfo.ankel ? <Ankle /> : null}
+
+                </div>
                 <hr></hr>
-                {oneinfo.text} 
+                {oneinfo.text}
 
 
                 <div className="desciptionflex_img">
-                   
-                    
+
+
                     <img src={oneinfo.css}></img>
                     <img src={oneinfo.technologies}></img>
                     <img src={oneinfo.html}></img>
@@ -96,11 +97,11 @@ const Descriptions = () => {
             </div>
             {description.text}
             {descriptionnow}
-           
+
             <h1 className="h1hobby">Zainteresowania</h1>
             <hr></hr>
-        
-            <Hobby/>
+
+            <Hobby />
         </div>
     )
 }

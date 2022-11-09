@@ -8,7 +8,7 @@ const Mycharacter = () => {
             <hr></hr>
             <p>Hej, nazywam się Michał i jestem studentem 5 roku Finansów i Rachunkowości na Uniwersytecie Ekonomicznym w Pozaniu.</p>
 
-            <p> Od sierpnia 2021 roku w momencie uzyskania przed Komisją Nadzoru Finansowego Licencji Maklera Papierów Wartościowych nr 3393, uczę się programownia. </p>
+            <p> Po uzyskaniu Licencji Maklera Papierów Wartościowych nr 3393 przed Komisją Nadzoru Finansowego w sierpniu 2021 roku rozpocząłem naukę programowania. </p>
             <p>  Głównie REACT, JS, HTML i CSS.</p>
 
             <hr></hr>

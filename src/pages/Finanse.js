@@ -25,7 +25,7 @@ const Finase = () => {
 
                 <div className="Hochland">
                     <div className="opishochland">
-                        Od 14.03.2022 do chwili obecnej pracuje w Hochland Polska na stanaowisku "stażysta księgowy"
+                        Od 14.03.2022 do chwili obecnej pracuję w Hochland Polska na stanowisku "stażysta księgowy"
                     </div>
                     <img src={hochland} alt="hochland"></img>
 
@@ -39,7 +39,7 @@ const Finase = () => {
 
 
                 <div className="abilities">
-                    <h2> Nabyte umiejęstności:</h2>
+                    <h2> Nabyte umiejętności:</h2>
                     <ul>
                         <li> <p>Obsługa Sap</p>
                             <img src={sap} alt="sap"></img>

@@ -9,9 +9,10 @@
 }
 
 .mydescriptionimg img{
-    min-height: 225px;
-    max-height: 225px;
-      min-width: 250px;
+    min-height: 215px;
+    max-height: 215px;
+      min-width: 240px;
+      max-width: 240px;
     margin-bottom: 20px;
     width: 95%;
     height: 95%;
