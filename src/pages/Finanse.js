@@ -17,7 +17,7 @@ const Finase = () => {
 
 
                 <div className="studia">
-                    Od 2021 roku jestem na studiach Magisterskich z Finansów i Rachunkowości Biznesu (specjalizacja inwestycje kapitałowe)
+                    Od 2021 roku jestem na studiach Magisterskich z Finansów i Rachunkowości Biznesu specjalizacja: "inwestycje kapitałowe"
                     <img src={ekonomiczny} alt="ekonomiczny"
                         style={{ backgroundColor: "black" }}></img>
 
@@ -41,10 +41,10 @@ const Finase = () => {
                 <div className="abilities">
                     <h2> Nabyte umiejętności:</h2>
                     <ul>
-                        <li> <p>Obsługa Sap</p>
+                        <li> <p>Obsługa Sapa</p>
                             <img src={sap} alt="sap"></img>
                         </li>
-                        <li>  <p> Excela (Analysis)</p>
+                        <li>  <p> Excel (Analysis)</p>
                             <img src={excel} alt="excel"></img>
                         </li>
                     </ul>
